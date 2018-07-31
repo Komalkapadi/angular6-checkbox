@@ -1,0 +1,10 @@
+<li *ngFor='let submenu of filternames'>
+    <div class="checkbox">
+        <input id="checkbox1" class="styled" type="checkbox"
+               [(ngModel)]="submenu.checked" [value]="submenu.name">
+        <label for="checkbox1">
+            {{submenu.name}}
+        </label>
+    </div>
+</li>
+<pre>Selected names: <span *ngFor="let filternames of checked()">{{ filternames.name}}</span></pre>
