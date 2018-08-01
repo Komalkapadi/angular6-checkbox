@@ -8,5 +8,6 @@
 {{(isLoginNew)}}
 <a *ngIf="!isLogin" routerLink="/login">Login</a><br>
 <a routerLink="/profile">Profile</a><br>
+<a routerLink="/password">Change Password</a><br>
 <a *ngIf="isLogin" (click)="doLogout()">Logout</a><br>
 <router-outlet></router-outlet>

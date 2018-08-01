@@ -6,12 +6,14 @@ import {AppComponent} from './app.component';
 import {LoginComponent} from './login/login.component';
 import {ProfileComponent} from './profile/profile.component';
 import {FormsModule} from '@angular/forms';
+import { ChangepasswordComponent } from './changepassword/changepassword.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         LoginComponent,
-        ProfileComponent
+        ProfileComponent,
+        ChangepasswordComponent
     ],
     imports: [
         BrowserModule,
